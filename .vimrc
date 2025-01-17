@@ -1,3 +1,3 @@
 " JavaScript:
-" copy whatever is highlighted and print in on the next line wrapped in a console.log:
-xnoremap <F5> yo<Esc>p0iconsole.log(<Esc>$a)<Esc>
+" Print a console log with a red circle emoji to make it obvious and enter insert mode within the parantesis of the log:
+nnoremap <leader>c oconsole.log("🔴", )<Esc>i
